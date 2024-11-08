@@ -1,0 +1,282 @@
+@media screen and (max-width: 1440px) {
+    .right {
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 1220px) {
+    nav .links {
+        width: 60vw;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #btn-1 {
+        width: 180px;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        padding: 0px 20px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .right {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    nav {
+        width: 100vw;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 9;
+    }
+    nav .links {
+        display: none;
+    }
+
+    #menu-btn {
+        font-size: 2vh;
+        display: block;
+        color: #fff;
+        opacity: 60%;
+    }
+
+    #close-btn {
+       position: absolute;
+       top: 5vh;
+       left: 4vw;
+        font-size: 3vh;
+        display: block;
+        color: #fff;
+        opacity: 60%;
+    }
+
+    .mob-nav {
+        position: absolute;
+        top: -70vh;
+        transition: 1s all ease;
+        display: none;
+        width: 100vw;
+        height: 50vh;
+        display: block;
+        background-color: #171717;
+        overflow-x: hidden;
+        z-index: 99;
+    }
+    
+    .res-links {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+        margin-top: 10vh;
+        z-index: 99;
+    }
+    
+    .res-links a {
+        text-align: center;
+        width: 100%;
+        font-size: 2.5vh;
+        margin: 20px 0px;
+        color: #fff;
+        z-index: 99;
+    }
+
+    #btn-1 {
+        width: 130px;
+        height: 45px;
+        margin-top: 3vh;
+        font-size: 20px;
+    }
+
+    .about {
+        padding: 60px 0px;
+    }
+
+    .works {
+        flex-direction: column;
+    }
+
+    .works .left,
+    .works .right .item,
+    footer  {
+        padding: 40px 5px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    .works .right {
+        grid-template-rows: auto auto;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        
+    }
+
+    nav {
+        width: 100vw;
+        /* overflow-x: hidden; */
+        align-items: center;
+        justify-content: space-between;
+        z-index: 9;
+    }
+    nav .links {
+        display: none;
+    }
+
+    #menu-btn {
+        padding: 0px 14px;
+        font-size: 3vh;
+        display: block;
+        color: #fff;
+        opacity: 60%;
+    }
+
+    #close-btn {
+       position: absolute;
+       top: 5vh;
+       left: 4vw;
+       font-size: 3vh;
+       display: block;
+       color: #fff;
+       opacity: 60%;
+    }
+
+    .mob-nav {
+        position: absolute;
+        top: -70vh;
+        transition: 1s all ease;
+        display: none;
+        width: 100vw;
+        height: 50vh;
+        display: block;
+        background-color: #171717;
+        overflow-x: hidden;
+        z-index: 99;
+    }
+    
+    .res-links {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 10vh;
+        z-index: 99;
+    }
+    
+    .res-links a {
+        text-align: center;
+        width: 100%;
+        font-size: 2.5vh;
+        margin: 8px 0px;
+        color: #fff;
+        z-index: 99;
+    }
+
+    #btn-1 {
+        width: 130px;
+        align-items: center;
+        height: 45px;
+        margin-top: 3vh;
+        font-size: 20px;
+    }
+
+    .me {
+        flex-direction: column-reverse;
+        padding: 60px 5px;
+    }
+
+    .right .right {
+        flex-direction: column;
+    }
+
+    #img {
+        margin-bottom: 1.5vh;
+    }
+
+    .left h3 {
+        text-align: center;
+    }
+
+    .about .left .info h2 {
+        font-size: 30px;
+    }
+
+    .about .left .info p,
+    .works .left .works-list .item .work-info p,
+    .works .left .works-list .item > p {
+        font-size: 16px;
+    }
+
+    .about .left .info .buttons button {
+        font-size: 14px;
+    }
+
+    .works .left {
+        padding: 60px 5px;
+    }
+
+    .works .left .works-list {
+        margin-top: 40px;
+    }
+
+    .works .left .works-list .item .work-info h5
+    .works .right .item a {
+        font-size: 20px;
+    }
+
+    .works .right .item > p,
+    .works .right .item:not(:first-child) a {
+        font-size: 14px;
+    }
+
+    .works .right .item:not(:first-child) p {
+        font-size: 13px;
+    }
+
+    .tec .animation-group {
+        [data-animation] {
+            padding: 0px 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 468px) {
+
+    body {
+        position: relative;
+    }
+
+    .skills {
+        height: fit-content;
+    }
+
+    .contact {
+        height: fit-content;
+    }
+    
+    .container {
+        height: fit-content;
+    }
+    
+    footer {
+        position: absolute;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
